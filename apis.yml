@@ -1,8 +1,13 @@
 aid: culinarybrands
 name: Culinarybrands
-description: 'Culinarybrands is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Culinary Brands is an Indian foodservice and beverage operator on a mission
+  to prove that fresh, quality food is possible without compromising on taste. The company
+  builds and runs a portfolio of well-known food and coffee brands across India, including
+  Subway (sandwiches / QSR), Lavazza (coffee), and Fresh & Honest (coffee and vending),
+  with a stated focus on sustainability, diversity and inclusion, governance, and CSR.
+  Surfaced as a portfolio company of Norwest Venture Partners and profiled in the API
+  Evangelist network; the public web presence is a WordPress corporate site with no
+  developer portal, documentation, or product API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/culinarybrands/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://culinarybrands.in/wp-content/uploads/2022/12/cropped-cb_favicon-192x192.jpeg
 tags:
 - Company
-- Unknown
+- Food
+- Beverage
+- Foodservice
+- QSR
+- Coffee
+- Franchise
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/culinarybrands-domain-security.yml
 - type: Website
   url: https://culinarybrands.in
+- type: Careers
+  url: https://culinarybrands.in/careers/
+- type: Contact
+  url: https://culinarybrands.in/contact-us/
+- type: Media
+  url: https://culinarybrands.in/media/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
